@@ -109,8 +109,6 @@ public class WynncraftSpellCasterClient implements ClientModInitializer, ClientL
         if (spell_key.isPressed()) {
             if (clickQueue.size() <= 3)
                 clickQueue.addAll(spell_clicks);
-
-            spell_key.setPressed(false);
         }
     }
 
